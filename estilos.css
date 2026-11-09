@@ -1,0 +1,77 @@
+/* Página del piloto de Trastero Vacío. Sin fuentes ni recursos de terceros. */
+:root {
+  --terracota: #a8472a;
+  --terracota-oscuro: #8a3820;
+  --crema: #fbf5ef;
+  --texto: #2b211c;
+  --suave: #6b5a50;
+  --borde: #e4d6ca;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  line-height: 1.55;
+  color: var(--texto);
+  background: var(--crema);
+}
+
+header, main, footer {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 1rem 1.25rem;
+}
+
+header { padding-top: 2.5rem; text-align: center; }
+h1 { margin: 0 0 .25rem; color: var(--terracota); font-size: 2.1rem; }
+h2 { margin-top: 2rem; color: var(--terracota-oscuro); font-size: 1.4rem; }
+.lema { margin: 0; font-size: 1.15rem; color: var(--suave); font-style: italic; }
+
+.aviso {
+  padding: .75rem 1rem;
+  background: #fff;
+  border: 1px solid var(--borde);
+  border-left: 4px solid var(--terracota);
+  border-radius: .5rem;
+}
+
+.boton {
+  display: block;
+  margin: 1.5rem 0;
+  padding: .95rem 1.25rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #fff;
+  background: var(--terracota);
+  border-radius: .6rem;
+  text-decoration: none;
+}
+.boton:hover, .boton:focus { background: var(--terracota-oscuro); }
+
+a { color: var(--terracota-oscuro); }
+
+code {
+  font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  font-size: .85rem;
+  word-break: break-all;
+  background: #fff;
+  padding: .1rem .3rem;
+  border-radius: .25rem;
+  border: 1px solid var(--borde);
+}
+
+ol.pasos { padding-left: 1.25rem; }
+ol.pasos li { margin-bottom: 1.5rem; }
+ol.pasos img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-top: .6rem;
+  border: 1px solid var(--borde);
+  border-radius: .5rem;
+}
+
+footer { color: var(--suave); font-size: .9rem; text-align: center; padding-bottom: 2.5rem; }
