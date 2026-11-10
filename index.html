@@ -27,7 +27,74 @@
     </p>
     <p><code id="apk-sha256">187c36f5910e0d0293b94ce7953cd1808452b4f9fdc8fd32c6139798c432c990</code></p>
 
-    <!-- La sección "Cómo instalar" con capturas se añade en la Tarea 3. -->
+    <h2>Cómo instalar</h2>
+    <p>
+      Al instalar una app fuera de Google Play, Android te pedirá varias confirmaciones.
+      Es normal: son avisos generales del sistema para cualquier app que no viene de la tienda.
+      Las capturas son de un móvil con Android en español; en el tuyo los textos pueden variar un poco.
+    </p>
+
+    <ol class="pasos">
+      <li>
+        <strong>Descarga la app.</strong> Abre esta página en el navegador del móvil y pulsa
+        «Descargar la app para Android». Chrome te avisará de que el archivo «puede ser dañino»
+        (lo dice de cualquier archivo .apk). Pulsa <strong>«Descargar de todos modos»</strong>.
+        <img src="instalar/paso-01.png" width="540" height="1201" loading="lazy"
+             alt="Chrome mostrando esta página con el aviso «Es posible que el archivo sea dañino» y los botones Cancelar y Descargar de todos modos">
+      </li>
+      <li>
+        <strong>Permite instalar apps desconocidas desde tu navegador.</strong> Cuando termine la descarga,
+        abre el archivo descargado (desde el aviso de Chrome o desde la lista de Descargas). La primera vez
+        Android te dirá que tu teléfono no puede instalar aplicaciones desconocidas de esa fuente.
+        Pulsa <strong>«Ajustes»</strong>.
+        <img src="instalar/paso-02.png" width="540" height="759" loading="lazy"
+             alt="Lista de Descargas de Chrome con el aviso «Por tu seguridad, de momento tu teléfono no puede instalar aplicaciones desconocidas de esta fuente» y los botones Cancelar y Ajustes">
+      </li>
+      <li>
+        <strong>Activa «Permitir de esta fuente» y vuelve atrás.</strong> En la pantalla «Instalar aplicaciones
+        desconocidas», activa el interruptor «Permitir de esta fuente» y pulsa la flecha para volver.
+        Si abriste el archivo desde WhatsApp u otra app en lugar de Chrome, el permiso se da a esa otra app.
+        Al volver, Android pregunta «¿Quieres instalar esta aplicación?»: pulsa <strong>«Instalar»</strong>.
+        <img src="instalar/paso-03.png" width="540" height="1201" loading="lazy"
+             alt="Diálogo de Android «Trastero Vacío: ¿Quieres instalar esta aplicación?» con los botones Cancelar e Instalar, sobre la pantalla Instalar aplicaciones desconocidas">
+      </li>
+      <li>
+        <strong>Play Protect.</strong> Es posible que aparezca «Aplicación bloqueada para proteger tu
+        dispositivo»: Play Protect no conoce a este desarrollador porque la app aún no está en la tienda.
+        Pulsa <strong>«Instalar de todas formas»</strong> (en algunos móviles aparece tras «Más detalles»).
+        <strong>No pulses «Entendido»</strong>: eso cancela la instalación.
+        <img src="instalar/paso-04.png" width="540" height="1201" loading="lazy"
+             alt="Aviso de Google Play Protect «Aplicación bloqueada para proteger tu dispositivo» con el enlace Instalar de todas formas y el botón Entendido">
+      </li>
+      <li>
+        <strong>Abre la app.</strong> Cuando Android diga «App instalada», pulsa «Abrir». Verás la bienvenida
+        de Trastero Vacío, con los botones «Registrarse» e «Iniciar sesión».
+        <img src="instalar/paso-05.png" width="540" height="1201" loading="lazy"
+             alt="Pantalla de bienvenida de Trastero Vacío con el lema y los botones Registrarse e Iniciar sesión">
+      </li>
+      <li>
+        <strong>Crea tu cuenta.</strong> Pulsa «Registrarse» y rellena tus datos. Al terminar entrarás
+        en la pantalla principal, que te saluda por tu nombre. La sesión se mantiene al cerrar y abrir la app.
+        <img src="instalar/paso-06.png" width="540" height="1201" loading="lazy"
+             alt="Pantalla principal de la app con el saludo «Hola» seguido del nombre de la persona que se acaba de registrar">
+      </li>
+    </ol>
+
+    <h2>Cómo comprobar la huella SHA-256 (opcional)</h2>
+    <p>
+      Después de descargar el archivo, puedes calcular su huella SHA-256 con una app de comprobación de
+      archivos o, en un ordenador, con el comando <code>sha256sum trastero-vacio.apk</code>
+      (Linux y macOS: <code>shasum -a 256 trastero-vacio.apk</code>). Debe coincidir con la que aparece arriba.
+    </p>
+
+    <h2>Cómo actualizar</h2>
+    <p>
+      Cuando haya una versión nueva, vuelve a esta página, descarga el archivo e instálalo encima de la app
+      que ya tienes. Va firmado con la misma clave, así que se actualiza sin perder tus datos ni tu sesión.
+    </p>
+
+    <h2>Privacidad</h2>
+    <p><a href="privacidad.html">Política de privacidad</a></p>
   </main>
 
   <footer>
